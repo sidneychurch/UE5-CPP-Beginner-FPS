@@ -3,13 +3,15 @@
 If you are using Rider as your IDE but have yet to set it up, [follow the documentation found here](https://www.jetbrains.com/help/rider/Unreal_Engine__Before_You_Start.html#rider_unreal_editor). You can make the needed editor changes after we create our project.
 
 ### Launch the Engine
-![](C:\Users\Sidney\RiderProjects\UE5-CPP-Beginner-FPS\Setup\Images\setup00.png)
+
+![](C:\Users\Sidney\RiderProjects\UE5-CPP-Beginner-FPS\01_Setup\Images\setup00.png)
 
 Open the Epic Games Launcher, and choose the Unreal Engine option on the left-hand side. You should already have installed the engine. If not, go to the Library tab at the top and install.
 With the engine installed, you can click on the launch button to start the engine.
 
 ### Create the Unreal Project
-![](C:\Users\Sidney\RiderProjects\UE5-CPP-Beginner-FPS\Setup\Images\setup01.png)
+
+![](C:\Users\Sidney\RiderProjects\UE5-CPP-Beginner-FPS\01_Setup\Images\setup01.png)
 
 * Create a new project based on the Games > First Person template.
 * For the Project Defaults, choose:
