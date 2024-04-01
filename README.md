@@ -2,7 +2,7 @@
 An example project using Unreal's First Person template as we dive into learning C++ in Unreal
 
 <!-- TOC -->
-* [Project Setup](#ue5-cpp-beginner-fps)
+* [Project Setup](/01_Setup/SETUP.md)
 * [Rider Association and Plug-ins]()
 * [Projectiles]()
 * [Creating an Enemy Class]()
