@@ -12,7 +12,7 @@ Inside the WeaponComponent class, you'll find other examples for mapping inputs 
 Let's also add the variables MaxAmmo and CurrentAmmo, as well as a function named Reload. You should see how Reload() mimics Fire().
 ![img_1.png](img_1.png)
 
-Have Rider generate the definition for Reload, and we'll move in the the character cpp file.
+Have Rider generate the definition for Reload, and we'll move in the the character TP_WeaponComponent cpp file.
 
 In the UTP_WeaponComponent constructor, we're going to set our CurrentAmmo to our MaxAmmo amount.
 ![img_2.png](img_2.png)
@@ -21,7 +21,7 @@ In the UTP_WeaponComponent constructor, we're going to set our CurrentAmmo to ou
 We can also do the same for our Reload Function:
 ![img_3.png](img_3.png)
 
-Now let's go to the Fire function and encapsulate the last three if statements with another if statement. Our condition for our if statement makes sure that the firing of a project, the firing sound, and the character animation doesn't happen if we're out of ammo. If we do have ammo, we want to remove one everytime the weapon is fired.
+Now let's go to the Fire function and encapsulate the last three if statements with another if statement. The condition for our if statement makes sure that the firing of a projectile, the firing sound, and the character animation doesn't happen if we're out of ammo. If we do have ammo, we want to remove one everytime the weapon is fired.
 
 ![img_4.png](img_4.png)
 
@@ -37,6 +37,7 @@ Inside we want to add a new mapping by click on the '+' icon.
 ![img_7.png](img_7.png)
 
 Then choose to create a new Input Action. For consistency, place it in FirstPerson > Input > Actions, and save it as IA_Reload.
+
 ![img_8.png](img_8.png)
 
 Head to that folder and open IA_Reload. Under Action, you should see Triggers. Click the '+' button to add one array element. Set that element to Pressed. Then save IA_Reload.
