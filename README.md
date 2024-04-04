@@ -24,4 +24,5 @@ Knowledge of C++ fundamentals, as well as a basic knowledge of the Unreal Engine
 * [Managing Enemy Collisions]()
 * [A Simple Scoring System]()
 * [UI for Displaying Score]()
+* [Adding Game Mechanics](/11_Mechanics/MECHANICS.md)
 <!-- TOC -->
