@@ -249,3 +249,6 @@ This allows our OnOverlap function to handle what happens.
 You should now be able to run into the enemy and the game will pause. Except we didn't make a way to unpause it, so you'll need to press ESC to stop playing the game.
 
 ![img_31.png](img_31.png)
+
+---
+>Next: [Spawning Enemies](/05_GameMode/GAMEMODE.md)
