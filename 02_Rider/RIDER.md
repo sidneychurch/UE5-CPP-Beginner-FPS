@@ -51,3 +51,6 @@ If you have issues changing the .sln file association, [refer to this guide](htt
 
 Hover for definitions
 Ctrl+click to find source
+
+---
+>Next: [Player Projectiles](/03_Projectiles/PROJECTILES.md)
