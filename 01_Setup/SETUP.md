@@ -8,7 +8,7 @@ If you are using Rider as your IDE but have yet to set it up, [follow the docume
 
 ---
 
-<img height="50%" src="Images/setup00.png" width="50%"/>
+<img height="70%" src="Images/setup00.png" width="70%"/>
 
 Open the Epic Games Launcher, and choose the Unreal Engine option on the left-hand side. You should already have installed the engine. If not, go to the Library tab at the top and install.
 
@@ -17,7 +17,7 @@ With the engine installed, you can click on the launch button to start the engin
 ## Create the Unreal Project
 
 ---
-<img height="50%" src="Images/setup01.png" width="50%"/>
+<img height="70%" src="Images/setup01.png" width="70%"/>
 
 * Create a new project based on the Games > First Person template.
 * For the Project Defaults, choose:
