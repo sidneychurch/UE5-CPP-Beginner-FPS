@@ -1,17 +1,23 @@
 # Project Setup
-### Rider IDE
+## Rider IDE
+
+---
 If you are using Rider as your IDE but have yet to set it up, [follow the documentation found here](https://www.jetbrains.com/help/rider/Unreal_Engine__Before_You_Start.html#rider_unreal_editor). You can make the needed editor changes after we create our project.
 
-### Launch the Engine
+## Launch the Engine
 
-![](Images/setup00.png)
+---
+
+<img height="50%" src="Images/setup00.png" width="50%"/>
 
 Open the Epic Games Launcher, and choose the Unreal Engine option on the left-hand side. You should already have installed the engine. If not, go to the Library tab at the top and install.
+
 With the engine installed, you can click on the launch button to start the engine.
 
-### Create the Unreal Project
+## Create the Unreal Project
 
-![](Images/setup01.png)
+---
+<img height="50%" src="Images/setup01.png" width="50%"/>
 
 * Create a new project based on the Games > First Person template.
 * For the Project Defaults, choose:
@@ -26,3 +32,6 @@ With the engine installed, you can click on the launch button to start the engin
     * Whenever this comes into play, it will be denoted as *YourProjectName*WhateverFile. An example would be *YourProjectName*GameMode.cpp
 * Note where your project is being saved. By default this is in the Documents folder.
 * Click the Create button.
+
+---
+>Next: [Rider Association and Plug-ins](/02_Rider/RIDER.md)
