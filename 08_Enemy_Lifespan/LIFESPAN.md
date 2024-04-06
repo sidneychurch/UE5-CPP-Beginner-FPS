@@ -11,7 +11,7 @@ Let's go to the BeginPlay function and add the following:
 
 ![img.png](img.png)
 
-Now if the player is able to avoid the enemy for 5 seconds, the enemy will automatically be removed from the level.
+Now if the player is able to avoid the enemy for 5 seconds, the enemy will automatically be removed from the level. Adjust this time to your liking.
 
 This is one quick way to deal with the situation. Know that destroying and spawning actors does use up resources when doing so. 
 Another way we could handle this would be to move the enemy to a new location rather than spawning a new one.
