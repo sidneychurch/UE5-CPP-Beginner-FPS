@@ -28,3 +28,6 @@ If you were to look at the projectile collisions in the projectile blueprint, yo
 
 ## Unreal Engine - Compile, Save, and Play
 Compile and Save. When you play the game, now you should be able to pick up the gun and shoot the enemies to make them disappear.
+
+---
+>Prev: [Enemy Lifespan](/08_Enemy_Lifespan/LIFESPAN.md) |  Next: [A Simple Scoring System](/10_Score/SCORE.md)
