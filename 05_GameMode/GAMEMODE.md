@@ -67,13 +67,13 @@ In the Content Drawer and in the All > Content folder, create a new folder named
 
 Now select the EnemyController that currently exists in the level and view the details tab on the right.
 
-<img height="50%" src="img_8.png" width="50%"/>
+<img height="33%" src="img_8.png" width="33%"/>
 
 Make sure that EnemyController (Instance) is highlighted and then click the blueprint button that's beside the Add button. <img height="5%" src="img_9.png" width="5%"/>
 
 For the parent class, EnemyController should be selected
 
-<img height="50%" src="img_10.png" width="50%"/>
+<img height="33%" src="img_10.png" width="33%"/>
 
 Name the blueprint BP_Enemy and make sure the path it's being saved to is the blueprint folder that we created earlier. The blueprint editor should open. You can just save it and then close it.
 
@@ -81,11 +81,11 @@ Name the blueprint BP_Enemy and make sure the path it's being saved to is the bl
 
 Now we need to make a blueprint for our GameMode. Inside the BluePrints folder, click on the Add button or right-click inside the folder and choose to create a new Blueprint class
 
-<img height="50%" src="img_11.png" width="50%"/>
+<img height="33%" src="img_11.png" width="33%"/>
 
 For the parent class, you want to go down to the bottom at All Classes and search for "gamemode". You should see the name of the game mode that we were working on called *YourProjectName*GameMode. Select it.
 
-<img height="50%" src="img_12.png" width="50%"/>
+<img height="33%" src="img_12.png" width="33%"/>
 
 I named my file BP_FPGameMode.
 
@@ -96,17 +96,17 @@ I named my file BP_FPGameMode.
 * Also change the Player Controller Class to the included BP_FirstPersonPlayerController
 * Compile & save
   
-<img height="50%" src="img_13.png" width="50%"/>
+<img height="30%" src="img_13.png" width="30%"/>
 
 Finally, we need to tell Unreal that we want to use our GameMode when we play the level.
 
 Click on the settings button in the top-right of the editor and then choose world settings
 
-<img height="50%" src="img_14.png" width="50%"/>
+<img height="30%" src="img_14.png" width="30%"/>
 
 This will open another tab where the Details tab lives. You can search for gamemode. We're looking for the option **GameMode Override**. Then we want to choose the blueprint that we made for our GameMode:
 
-<img height="50%" src="img_15.png" width="50%"/>
+<img height="30%" src="img_15.png" width="30%"/>
 
 You can also delete the EnemyController in the level if you like, since they will now spawn in through our GameMode. 
 
@@ -116,4 +116,4 @@ Save the project and try playing it.
 
 You should now be able to walk around, while enemies spawn in your proximity. If you feel the enemies spawn too close or too far, you can adjust the RandomDist min and max values. You could even make those values into UPROPERTY variables where you can change them in the editor if you wanted.
 
->Next: [Super Basic Enemy AI](/06_EnemyAI/AI.md)
+>Prev: [Creating an Enemy Class](/04_EnemyClass/ENEMYCLASS.md) | Next: [Super Basic Enemy AI](/06_EnemyAI/AI.md)
