@@ -57,6 +57,8 @@ We'll start by creating an instance of our enemy class and setting it equal to o
 
 FRotator is a struct that holds rotation info and ZeroRotator sets each axis to zero degrees rotation.
 
+## Rider - Build and Reload
+
 Build and reload. Then we'll head to Unreal.
 
 ## Unreal Editor - A Blueprint for Our Enemy
