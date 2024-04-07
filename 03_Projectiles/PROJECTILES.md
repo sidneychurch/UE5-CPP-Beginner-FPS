@@ -73,4 +73,4 @@ Below your UE_LOG code, add:
 Know when you play the game and shoot one of the blue cubes, you'll see its name printed onto the screen.
 
 ---
->Next: [Creating an Enemy Class](/04_EnemyClass/ENEMYCLASS.md)
+>Prev: [Rider Association and Plug-ins](/02_Rider/RIDER.md) | Next: [Creating an Enemy Class](/04_EnemyClass/ENEMYCLASS.md)
