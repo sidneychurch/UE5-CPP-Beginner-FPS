@@ -250,6 +250,8 @@ Select the cube we added in the EnemyController and find its collision propertie
 
 This allows our OnOverlap function to handle what happens.
 
+## Unreal Engine - Save and Play
+
 You should now be able to run into the enemy and the game will pause. Except we didn't make a way to unpause it, so you'll need to press ESC to stop playing the game.
 
 <img height="50%" src="img_31.png" width="50%"/>
