@@ -66,7 +66,7 @@ Here are two ways that we can do that in Unreal.
 [Check their API page](https://dev.epicgames.com/documentation/en-us/unreal-engine/logging-in-unreal-engine) for more information on other methods and an explanation on their arguments.
 
 ---
-## UE-LOG
+## UE_LOG
 The first is **UE_LOG**. After the first bracket in the if statement, add:
 
 ![img_4.png](img_4.png)
