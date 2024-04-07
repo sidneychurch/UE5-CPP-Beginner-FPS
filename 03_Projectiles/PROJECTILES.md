@@ -1,4 +1,4 @@
-# Projectiles, Collision, and Debugging
+# Projectiles, Collision, and Logging
 To start things off we're going to look at the code that deals with the default projectiles in the First Person template.
 
 To access it, you can open the file from the Unreal Engine or open the .sln file for your project.
@@ -54,23 +54,32 @@ If all this passes, then we add impulse onto the actor hit through its UPrimitiv
 
 If you play the example template as is, you'll see that this is what imparts the physics onto the blue cubes in the scene when hit by a projectile.
 
-Understandably when you first come to Unreal's C++, this can be a lot to take in, and leave you wondering where all this comes from. Even with an understanding of C++, we need to learn Unreal's special take on it. Keep in mind that their implementations ultimately make the process of making anything with the engine much easier.
+## Logging
+>[!NOTE]
+>Understandably when you first come to Unreal's C++, this can be a lot to take in and leave you wondering where all this comes from. Even with an understanding of C++, we need to learn Unreal's special take on it. 
+>
+>Keep in mind that their implementations ultimately make the process of making a game or simulation much quicker.
 
 One of the most helpful tools when learning any coding language, which is basically what we're doing here, is to log messages so that we can test and understand what's going on.
-Here is two ways that we can do that in Unreal. [Check their API page](https://dev.epicgames.com/documentation/en-us/unreal-engine/logging-in-unreal-engine) for more information on other methods and an explanation on their arguments.
+Here are two ways that we can do that in Unreal. 
 
+[Check their API page](https://dev.epicgames.com/documentation/en-us/unreal-engine/logging-in-unreal-engine) for more information on other methods and an explanation on their arguments.
+
+---
+## UE-LOG
 The first is **UE_LOG**. After the first bracket in the if statement, add:
 
 ![img_4.png](img_4.png)
 
 This will print the name of the actor hit by a projectile to Unreal's console.
 
+## AddOnScreenDebugMessage
 The other method, and possibly easier to read, is **AddOnScreenDebugMessage**. This will print a debug message inside your view window while playing the game. To use this function, you have to have access to the engine library. This should typically be included in an Unreal project, but that's not always the case. Because of this, you'll often see it paired with an if statement to make sure the library is available.
 Below your UE_LOG code, add:
 
 ![img_5.png](img_5.png)
 
-Know when you play the game and shoot one of the blue cubes, you'll see its name printed onto the screen.
+Now when you play the game and shoot one of the blue cubes, you'll see its name printed onto the screen.
 
 ---
 >Prev: [Rider Association and Plug-ins](/02_Rider/RIDER.md) | Next: [Creating an Enemy Class](/04_EnemyClass/ENEMYCLASS.md)
