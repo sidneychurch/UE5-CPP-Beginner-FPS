@@ -6,6 +6,8 @@ To help us understand a bit more, let's create our own C++ class.
 >[!TIP]
 > When creating a new C++ class, always do it through the engine. This is the easiest way to make sure everything works properly, such as Unreal's Reflection system that we'll discuss more later.
 
+## Unreal Enging - Creating a C++ Class
+
 Our class will be for spawning enemies into the world. To create it, you can either goto Tools > New C++ Class...
 
 <img height="30%" src="img.png" width="30%"/>
@@ -209,13 +211,15 @@ Now if an enemy hits a player, there's typically a consequence. For now, let's p
 
 ![img_23.png](img_23.png)
 
+## Rider - Build and Reload
+
 Now we want to build and reload our project. You should hopefully get a success message from the Live Coding window. If not, review the window for errors and fix them.
 
 ![img_24.png](img_24.png)
 
 If it's good, head back into the engine to add our enemy to the game.
 
-### Adding an Enemy
+## Unreal Engine - Adding Our Enemy
 In your Content Drawer | C++ Classes folder, you should see a folder named Public. Inside you should see the EnemyController C++ class
 
 ![img_25.png](img_25.png)
@@ -248,7 +252,7 @@ This allows our OnOverlap function to handle what happens.
 
 You should now be able to run into the enemy and the game will pause. Except we didn't make a way to unpause it, so you'll need to press ESC to stop playing the game.
 
-![img_31.png](img_31.png)
+<img height="50%" src="img_31.png" width="50%"/>
 
 ---
->Next: [Spawning Enemies](/05_GameMode/GAMEMODE.md)
+>Prev: [Player Projectiles](/03_Projectiles/PROJECTILES.md) | Next: [Spawning Enemies](/05_GameMode/GAMEMODE.md)
