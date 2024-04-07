@@ -41,7 +41,7 @@ Build and Reload. Then go to Unreal.
 ## Reloading: Unreal Engine - Input Mapping
 In the Unreal Content Drawer and inside All > Content > FirstPerson > Input, you'll see two IMC files ( Input Mapping Context ). Default is for character movement and camera controls. Weapons is for when the player picks up the weapon. We want to open up IMC_Weapons.
 
-![img_6.png](img_6.png)
+<img height="50%" src="img_6.png" width="50%"/>
 
 Inside we want to add a new mapping by click on the '+' icon.
 
@@ -49,7 +49,7 @@ Inside we want to add a new mapping by click on the '+' icon.
 
 Then choose to create a new Input Action. For consistency, place it in FirstPerson > Input > Actions, and save it as IA_Reload.
 
-![img_8.png](img_8.png)
+<img height="50%" src="img_8.png" width="50%"/>
 
 Head to that folder and open IA_Reload. Under Action, you should see Triggers. Click the '+' button to add one array element. Set that element to Pressed. Then save IA_Reload.
 
