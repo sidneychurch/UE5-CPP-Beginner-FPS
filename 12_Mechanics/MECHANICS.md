@@ -1,4 +1,4 @@
-# Mechanics
+# Additional Game Mechanics
 Here we'll look at some additional mechanics that we could add to the game and how to implement them using C++.
 
 ## Reloading: TP_WeaponComponent.h
