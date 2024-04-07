@@ -26,3 +26,6 @@ Why do we need to do this? GetWorld()->GetAuthGameMode() will return a type of A
 
 ## Rider - Build and Reload
 Build and reload. Now when you shoot an enemy, you should see your score increase through the debug message we created.
+
+---
+>Prev: [Managing Enemy Collisions](/09_Collision/COLLISION.md) |  Next: [UI for Displaying Player Score](/11_ScoreUI/UI.md)
