@@ -53,4 +53,4 @@ Hover for definitions
 Ctrl+click to find source
 
 ---
->Next: [Player Projectiles](/03_Projectiles/PROJECTILES.md)
+>Prev: [Project Setup](/01_Setup/SETUP.md)  |  Next: [Player Projectiles](/03_Projectiles/PROJECTILES.md)
