@@ -1,6 +1,35 @@
 # Additional Game Mechanics
 Here we'll look at some additional mechanics that we could add to the game and how to implement them using C++.
 
+Mechanics Covered:
+* Make Testing Easier
+* [Reloading](https://github.com/sidneychurch/UE5-CPP-Beginner-FPS/blob/main/12_Mechanics/MECHANICS.md#reloading-tp_weaponcomponenth)
+* Rocket Jump
+
+## Testing: *YourProjectName*GameMode.h
+We want to work on some additional mechanics, but everytime we run the game we have to deal with those pesky enemies. If we're working on game mechanics that don't involve the enemy, we shouldn't have to deal with an unnecessary obstacle when testing.
+Depending on the game, this might not be that big of a deal, but for me, every enemy collision pauses the game. Rather than modifying code and changing it back everytime I want to test a feature, let's setup a testing state in our GameMode.
+
+In the public section of your GameMode header, add this:
+
+![img_12.png](img_12.png)
+
+## Testing: *YourProjectName*GameMode.cpp - Tick()
+In the tick function where we're spawning enemies to the game, let's also check if the boolean we just created is false:
+
+![img_13.png](img_13.png)
+
+Build and reload.
+
+## Testing: Unreal Editor - BP_GameMode
+Open the blueprint for your GameMode. You should see a new "Testing" category and checkbox for the boolean.
+This is because we set it to "EditAnywhere". Now whenever we don't want enemies to spawn, we can check that box, compile, and save.
+
+![img_14.png](img_14.png)
+
+Do so, and you should see that's the case. Now we can focus on any mechanics that don't involve enemies.
+
+
 ## Reloading: TP_WeaponComponent.h
 
 To add in a reload mechanic we're going to start off in TP_WeaponComponent.h. If you look through the provided classes, you'll notice inputs are split between weapon and character.
@@ -68,6 +97,25 @@ Then in the Details pane on the right, search for input, and you should see our 
 Compile and save.
 
 Now when you play the game, you'll see that after you shoot MaxAmmo number of times, you can no longer fire the weapon until you reload.
+
+
+
+## Rocket Jump: Think It Through
+Before we start thinking about how to implement a mechanic, we need to first think about how we want the mechanic to function. You can think of it as pseudo code.
+
+How I want want rocket jumping to function:
+* The player must be looking near their feet
+* When they fire the projectile at their feet, they get launched in the air
+  * I want the payer to also keep moving in the direction they are going
+  * If they jump and shoot they ground, they go higher
+* Can't do multiple rocket jumps 
+
+I know that this will involve my character and my weapon, so we'll start there.
+
+## Rocket Jump: *YourProjectName*Character.h
+
+
+
 
 ---
 >Prev: [UI for Displaying Player Score](/11_ScoreUI/UI.md)

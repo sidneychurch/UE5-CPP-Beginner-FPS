@@ -47,7 +47,8 @@ Let's start off by looking at the generated code of our header file.
 >[!WARNING]
 > Every *ClassName*.generated.h must always be last in your list of includes in order to be picked up by the Unreal Header Tool. Things will not work as expected otherwise.
 
-## A quick aside on Unreal's Reflection system:
+<details>
+<summary> <b> A "quick" aside on Unreal's Reflection system </b> </summary>
 From: https://www.unrealengine.com/en-US/blog/unreal-property-system-reflection
 
 > Reflection is the ability of a program to examine itself at runtime. This is hugely useful and is a foundational technology of the Unreal engine, powering many systems such as detail panels in the editor, serialization, garbage collection, network replication, and Blueprint/C++ communication. This is required in order for your class to be considered by the Unreal Header Tool during compile.
@@ -66,7 +67,9 @@ Here is a list of macros that we'll need to know for now:
 
 When specifying macros, you can add keywords so that you can edit and display them within the Unreal Editor.
 
-## EnemyController.h - Continued
+</details>
+
+
 Before our class, you'll see the UCLASS() macro automatically added. Then you'll see something like:
 
 ![img_5.png](img_5.png)
